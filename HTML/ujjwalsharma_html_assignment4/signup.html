@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Reservation Form</title>
+</head>
+<body>
+    <h1>Hotel Reservation</h1>
+    <form action="success.html">
+        <table>
+            <tr>
+        <td><label for="fname">First name<span>*</span></label><br><input type="text" required></td>
+        <td><label for="lname">Last name<span>*</span></label><br><input type="text" required></td>
+        </tr>
+        </table>
+
+        <table>
+            <tr>
+            <td><label for="phone">Phone<span>*</span></label><br><input type="text" name="phone" style="width: 340px;" required></td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+            <td><label for="phone">Email<span>*</span></label><br><input type="text" name="email" style="width: 340px;" required></td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td><label for="arrival date">Arrival Date<span>*</span></label><br><input type="text" required></td>
+            </tr>
+            <tr>
+                <td><label for="departure date">Departure Date<span>*</span></label><br><input type="text" required></td>
+            </tr>
+            <tr>
+                <td><label for="number of adults">Number of adults<span>*</span></label><br><input type="text" required></td>
+            </tr>
+            <tr>
+                <td><label for="number of children">Number of children</label><br><input type="text"></td>
+            </tr>
+        </table>
+        <table>
+            <label for="Questions">Questions/Comments</label><br>
+            <textarea name="questions" id="" cols="50" rows="8"></textarea>
+        </table>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
